@@ -38,7 +38,7 @@ const App = () => {
 
 	const chatWithPDF = async () => {
 		try {
-			const response = await axios.post("http://127.0.0.1:5000/chat", {
+			const response = await axios.post("https://smart-bot-backend.onrender.com/chat", {
 				message,
 			});
 
